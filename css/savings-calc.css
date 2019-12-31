@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    font-family: cursive;
+    font-size: 1.1em;
+    line-height: 1.2;
+}
+
+.main{
+    border: 3px dashed black;
+    width: 70%;
+    margin: 5% auto;
+    text-align: center;
+    color: #333;
+}
+
+ul{
+    list-style: none;
+    width: 25%;
+    margin: 3% auto;
+}
+li{
+    padding: 5%;
+    text-align: left;
+}
