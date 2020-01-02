@@ -16,6 +16,20 @@ body{
     color: #333;
 }
 
+.result{
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-decoration: underline;
+}
+
+.horizontal{
+    border: 4px solid darkcyan;
+    position: absolute;
+    height: 50%;
+    top: 22.5%;
+    left: 42%;
+}
 ul{
     list-style: none;
     width: 25%;
@@ -24,4 +38,22 @@ ul{
 li{
     padding: 5%;
     text-align: left;
+}
+input[type='alphanumeric']{
+    padding: 5%;
+    font-weight: bolder;
+}
+
+input[type='submit']{
+    display: inline;
+    padding: 4%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+input[type='reset']{
+    display: inline;
+    padding: 4%;
+    font-size: 1.5rem;
+    font-weight: bolder;
 }

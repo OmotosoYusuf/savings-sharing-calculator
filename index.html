@@ -11,23 +11,31 @@
 
 <body>
     <div class="main">
+        <div class="result">
+            <h2>Final Result</h2>
+        </div>
+        <div class="horizontal">
+        </div>
         <h1>Savings Sharing Calculator</h1>
         <h3>Sharing details</h3>
         <form method="GET" action="">
             <ul>
+                <input type="alphanumeric" placeholder="Enter Your Value in Digits/Numbers Only" id="users-value">
                 <li><input type="checkbox" class="sharing-values" id="necessity">Necessity</li>
                 <li><input type="checkbox" class="sharing-values" id="untouchable">Untouchable</li>
                 <li><input type="checkbox" class="sharing-values" id="touchable">Touchable</li>
                 <li><input type="checkbox" class="sharing-values" id="touchable">Education/Enrichment</li>
                 <li><input type="checkbox" class="sharing-values" id="self">Self treat</li>
                 <li><input type="checkbox" class="sharing-values" id="charity">Charity</li>
+                <input type="submit" value="Submit" id="submit">
+                <input type="reset" id="reset" value="Clear">
             </ul>
 
             <h3>Change sharing details </h3>
             <span class="customize">You can create your personal sharing formulae here</span>
     </div>
 
-<script src="js/savings-calc.js"></script>
+    <script src="js/savings-calc.js"></script>
 </body>
 
 </html>
